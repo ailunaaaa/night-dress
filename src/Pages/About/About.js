@@ -3,7 +3,7 @@ import './About.css';
 function About() {
   return (
     <>
-      About
+      Lorem ipsum dolor sit amet.
     </>
   );
 }
