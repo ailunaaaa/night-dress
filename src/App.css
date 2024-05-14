@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+import './App.css';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import About from './Pages/About/About';
+import Home from './Pages/Home/Home';
+import Contacts from './Pages/Contacts/Contacts';
+import Order from './Pages/Order/Order';
+import Delivery from './Pages/Delivery/Delivery';
+import Cart from './Pages/Cart/Cart';
+import NotFound from './Pages/NotFound/NotFound';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom'
+
+
+function App() {
+  return (
+    <div className='App'>
+      <Router>
+        <Header />
+        <main>
+          <div className="container">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="about" element={<About />} />
+              <Route path="contacts" element={<Contacts />} />
+              <Route path="order" element={<Order />} />
+              <Route path="delivery" element={<Delivery />} />
+              <Route path="cart" element={<Cart />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </div>
+        </main>
+        <Footer />
+      </Router>
+    </div>
+  );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+export default App;
