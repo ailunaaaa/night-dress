@@ -4,12 +4,12 @@ import { GoogleAuthProvider, getAuth, onAuthStateChanged, signInWithPopup, signO
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDKb7pfyIUTBdI3T6KW97Kjih5p5TLvF9Q",
-    authDomain: "night-dress.firebaseapp.com",
-    projectId: "night-dress",
-    storageBucket: "night-dress.appspot.com",
-    messagingSenderId: "647538614426",
-    appId: "1:647538614426:web:9cb813dd4b6faf7c983f23"
+  apiKey: "AIzaSyDKb7pfyIUTBdI3T6KW97Kjih5p5TLvF9Q",
+  authDomain: "night-dress.firebaseapp.com",
+  projectId: "night-dress",
+  storageBucket: "night-dress.appspot.com",
+  messagingSenderId: "647538614426",
+  appId: "1:647538614426:web:9cb813dd4b6faf7c983f23"
   };
 
 const app = initializeApp(firebaseConfig);

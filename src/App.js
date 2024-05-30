@@ -1,6 +1,7 @@
 import './App.css'; 
 import Footer from './Components/Footer/Footer'; 
 import Header from './Components/Header/Header'; 
+import CategoryList from './Components/CategoryList/CategoryList'; 
 import About from './Pages/About/About'; 
 import Home from './Pages/Home/Home'; 
 import Contacts from './Pages/Contacts/Contacts'; 
