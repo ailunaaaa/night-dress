@@ -1,0 +1,54 @@
+footer{
+    background: pink;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+footer .Menu ul{
+    display: block;
+}
+footer {
+    background-color: #333; /* Темно-серый фон */
+    color: white; /* Белый текст */
+    padding: 20px 0; /* Внутренние отступы сверху и снизу */
+    text-align: center; /* Центрирование текста */
+}
+
+/* Стили для контейнера в футере */
+
+/* Стили для ссылок в футере */
+footer a {
+    color: #bbb; /* Светло-серый цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+    margin: 0 10px; /* Отступы между ссылками */
+}
+
+footer a:hover {
+    color: white; /* Белый цвет при наведении */
+}
+
+/* Стили для секций в футере */
+footer .footer-section {
+    margin-bottom: 20px; /* Отступ снизу для каждой секции */
+}
+
+/* Стили для заголовков в секциях */
+footer h3 {
+    margin-bottom: 10px; /* Отступ снизу для заголовков */
+    font-size: 18px; /* Размер шрифта */
+}
+
+/* Стили для текста в секциях */
+footer p {
+    margin: 0; /* Убираем отступы */
+}
+
+/* Стили для маленького текста (например, копирайт) */
+footer small {
+    display: block;
+    margin-top: 20px;
+    color: #aaa; /* Более светлый цвет для копирайта */
+}
+.footer_info{
+    margin-bottom: 24px;
+}

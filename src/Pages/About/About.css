@@ -1,0 +1,13 @@
+.about_us{
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+.about_img{
+    background-image:url(../About/img/about_dresses1.jpg);
+    padding: 555px;
+    width: 155px;
+    height: 355px;
+}

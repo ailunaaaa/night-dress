@@ -2,9 +2,9 @@ import './Contacts.css';
 
 function Contacts() {
   return (
-    <>
-      Contacts
-    </>
+   <div className="container">
+    
+   </div>
   );
 }
 
